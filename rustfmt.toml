@@ -1,0 +1,23 @@
+
+
+# A lot of the styles we want can only be configured
+# using unstable features.
+#
+# If you have trouble running rustfmt, try "cargo +nightly fmt".
+
+edition = "2018"
+fn_args_layout = "Vertical"
+match_block_trailing_comma = true
+max_width = 80
+use_field_init_shorthand = true
+use_small_heuristics = "Off"
+use_try_shorthand = true
+
+# This one isn't released yet.
+#fn_call_width = 40
+
+# These are already set to the defaults, but they are things
+# we really want to make sure are set, just in case defaults change.
+reorder_imports = true
+reorder_modules = true
+tab_spaces = 4
