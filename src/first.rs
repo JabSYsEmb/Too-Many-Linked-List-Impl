@@ -57,11 +57,6 @@ mod test {
     use super::*;
 
     #[test]
-    fn new_works() {
-        let empty_list = List::new();
-    }
-
-    #[test]
     fn push_works() {
         let mut mylist = List::new();
         mylist.push(4);
